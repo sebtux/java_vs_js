@@ -1,0 +1,17 @@
+<!-- ............................................................... -->
+<!-- XML specification DTD ......................................... -->
+<!-- ............................................................... -->
+
+<!--
+TYPICAL INVOCATION:
+#  <!DOCTYPE spec PUBLIC
+#       "-//W3C//DTD Specification V2.0//EN"
+#       "http://www.w3.org/XML/1998/06/xmlspec-v20.dtd" -->
+<classes>
+<obj>plateau</obj><!-- un plateau matriciel serais une bonne idées -->
+<obj>pion</obj>
+<obj>lipide</obj>
+<obj>enzyme</obj>
+<obj>metabolite</obj>
+<obj>main</obj>
+</classes>
