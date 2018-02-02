@@ -16,5 +16,6 @@ public class pion {
 
 		private void deplacement() {
 		/*faire un svitchcase pour les deplacement en fontion du nom*/
+		/*ça fait 3jours que j'attend ta sructure de controle ^_^ */
 	}
 }
