@@ -1,0 +1,32 @@
+public class EnzymeRougeJ2 extends Enzyme{
+
+    private String color = "\033[31m";
+    private String skin = ((String)color)+"e";
+    private boolean booleanJoueur1 = false;
+    private boolean booleanJoueur2 = true;
+
+    public EnzymeRougeJ2(){
+	super();
+	this.skin = skin;
+	this.booleanJoueur1 = booleanJoueur1;
+	this.booleanJoueur2 = booleanJoueur2;
+    }
+
+
+    public EnzymeRougeJ2(int coordX, int coordY){
+        super(coordX, coordY);
+	this.skin = skin;
+	this.booleanJoueur1 = booleanJoueur1;
+	this.booleanJoueur2 = booleanJoueur2;
+    }
+
+
+    public String getOccupant(){
+	return skin;
+    }
+    /*
+    public CaseJeu[][] bougerEnzyme(CaseJeu [][]plateau){
+	super.bougerEnzyme(plateau);
+    }
+    */
+}

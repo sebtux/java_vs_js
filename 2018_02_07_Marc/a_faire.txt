@@ -1,0 +1,1 @@
+faire les getters/setters pour toutes les classes

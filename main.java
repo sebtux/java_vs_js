@@ -1,5 +1,5 @@
 /**
- * _//comentaire ant pou l'aide de la classe laisser vide si inutile//_
+ * _//comentaire ant pour l'aide de la classe laisser vide si inutile//_
  */
 
 /**
