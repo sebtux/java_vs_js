@@ -1,0 +1,42 @@
+public class MetaboliteBleu extends Metabolite{
+
+    private String color = "\033[34m";
+    private String apparence = super.getOccupant();
+    private String skin = ((String)color+(String)apparence);
+    private boolean booleanJoueur1 = this.getBooleanJoueur1();
+    private boolean booleanJoueur2 = this.getBooleanJoueur2();
+
+    public MetaboliteBleu(){
+	super();
+	this.skin = skin;
+    }
+
+
+    public MetaboliteBleu(int coordX, int coordY){
+        super(coordX, coordY);
+	this.skin = skin;
+    }
+
+    
+    public String getApparence(){
+	return apparence;
+    }
+
+    public String getOccupant(){
+	return skin;
+    }
+    
+    public boolean getOverwritable(){
+	return super.getOverwritable();
+    }
+
+    public boolean getPickable(){
+	return super.getPickable();
+    }
+    
+
+    public CaseJeu[][] bougerMetabolite(CaseJeu [][]plateau, int nombreTours){
+	return super.bougerPion(plateau, nombreTours);
+    }
+
+}
